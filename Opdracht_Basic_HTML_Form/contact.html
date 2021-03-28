@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- hier zet je de code in de head tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="x-ua-Compatible" content="ie=edge" />
+    <title>Sixth HTML Page</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header class="grey-border">
+            <h1>Contact Page</h1>
+        </header>
+        <nav>
+            <ul class="nav-bar">
+                <li>
+                    <a href="index.html">
+                        <h3>Home</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="news.html">
+                        <h3>News</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html">
+                        <h3>Contact</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="About.html">
+                        <h3>About me</h3>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <main class="grey-border">
+            <h2>Contact</h2>
+            <form name="contact" method="POST" data-netlify="true">
+                <p>
+                    <label>Name:<br>
+                        <input type="text" name="name" />
+                    </label>
+                </p>
+                <p>
+                    <label for="email">E-mail:<br>
+                        <input type="email" id="email" name="email" />
+                    </label>
+                </p>
+                <p>
+                    <label>Phone:<br>
+                        <input type="tel" name="Phone" />
+                    </label>
+                </p>
+                <p>
+                    <label>Age:<br>
+                        <input type="text" name="age" />
+                    </label>
+                </p>
+                <p>
+                    <label for="birthday">Birthday:<br>
+                        <input type="date" id="birthday" name="birthday" />
+                    </label>
+                </p>
+                <p>
+                    <label>Gender:<br></label>
+                    <label>
+                        <input type="radio" name="choice" value="HTML" />
+                        Male
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="radio" name="choice" value="Java" />
+                        Female
+                    </label>
+                </p>
+                <p>
+                    <label>Favorite Cuisine:<br>
+                        <input type="checkbox" id="cuisine1" name="cuisine1" value="French">
+                        <label for="cuisine1">French</label><br>
+                        <input type="checkbox" id="cuisine2" name="cuisine2" value="Italian">
+                        <label for="cuisine2">Italian</label><br>
+                        <input type="checkbox" id="cuisine3" name="cuisine3" value="Spanish">
+                        <label for="cuisine3">Spanish</label><br>
+                        <input type="checkbox" id="cuisine4" name="cuisine4" value="Arabic">
+                        <label for="cuisine4">Arabic</label><br>
+                    </label>
+                </p>
+                <p>
+                    <label for="favcolor">Favorite color shorts:</label>
+                    <input type="color" id="favcolor" name="favcolor">
+                </p>
+                <p>
+                    <label>Biography:<br>
+                        <textarea name="biography"></textarea>
+                    </label>
+                </p>
+                <p>
+                    <label for="myfile">Last recipe cooked:
+                        <input type="file" id="myfile" name="myfile">
+                    </label>
+                </p>
+                <p>
+                    <label for="website">Your recipe website
+                        <input type="url" id="website" name="website">
+                    </label>
+                </p>
+                <p>
+                    <input type="submit" value="Submit">
+                </p>
+                <p>
+                    <input type="reset" value="Reset">
+                </p>
+            </form>
+        </main>
+        <footer>
+            <h2>Copyright</h2>
+            <a href="https://www.google.com/">
+                <h3>Google</h3>
+            </a>
+        </footer>
+        <hr>
+    </div><!-- ./container -->
+</body>
+
+</html>

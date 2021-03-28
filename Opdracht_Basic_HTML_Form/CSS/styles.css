@@ -1,0 +1,106 @@
+
+body { 
+    background-color: rgb(104, 104, 104);
+    color: white;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: normal;
+
+    margin-top: 50px;
+    padding: 0px;
+    
+}
+
+/*-- This can be copied for comments --*/
+
+header{
+    text-align: center;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.box-1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+  }
+
+.nav-bar li{
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;;
+
+    /*-- Links decorations --*/
+}
+
+a:hover{
+    color: red;
+
+    /*-- Links decorations --*/
+}
+
+a:active{
+    color: green;
+
+    /*-- Links decorations --*/
+}
+
+
+.grey-border {
+    border: 8px solid rgb(32, 24, 24);
+    border-style: double;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.grey-border ul {
+    padding: px;
+    list-style-type: square;
+}
+
+.black-border {
+    border: 3px solid black;
+}
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  input[type=reset]:hover {
+    background-color: #fc0404;
+  }
+
+
+@media (min-width: 1024px) {
+    body{
+        background-color: darkgray;
+        color: rgb(32, 24, 24);
+        font-size: 0.75em;
+        line-height: 1.5;
+    }
+    a{
+        color: rgb(32, 24, 24);
+    }
+
+}
